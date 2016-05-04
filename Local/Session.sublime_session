@@ -1,0 +1,1208 @@
+{
+	"folder_history":
+	[
+		"/Users/pedro/Jam3/mustang/MustangCustomizerRenderer"
+	],
+	"last_version": 3103,
+	"last_window_id": 2,
+	"log_indexing": false,
+	"settings":
+	{
+		"new_window_height": 480.0,
+		"new_window_settings":
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+				]
+			},
+			"build_system_choices":
+			[
+			],
+			"build_varint": "",
+			"command_palette":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"console":
+			{
+				"height": 0.0,
+				"history":
+				[
+				]
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"file_history":
+			[
+			],
+			"find":
+			{
+				"height": 0.0
+			},
+			"find_in_files":
+			{
+				"height": 0.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+				],
+				"reverse": false,
+				"show_context": true,
+				"use_buffer2": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"incremental_find":
+			{
+				"height": 0.0
+			},
+			"input":
+			{
+				"height": 0.0
+			},
+			"menu_visible": true,
+			"output.find_results":
+			{
+				"height": 0.0
+			},
+			"pinned_build_system": "",
+			"replace":
+			{
+				"height": 0.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_symbol":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"show_minimap": true,
+			"show_open_files": false,
+			"show_tabs": true,
+			"side_bar_visible": true,
+			"side_bar_width": 150.0,
+			"status_bar_visible": true,
+			"template_settings":
+			{
+			}
+		},
+		"new_window_width": 640.0
+	},
+	"windows":
+	[
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+					[
+						"Animate",
+						"AnimatedObject3D"
+					],
+					[
+						"Ob",
+						"Object3D"
+					],
+					[
+						"GameSpla",
+						"GameSplashMessageSVG"
+					],
+					[
+						"GameSplase",
+						"GameSplashMessageSVG	(GameSplashMessageSVG.js)"
+					],
+					[
+						"proto",
+						"prototype"
+					],
+					[
+						"red",
+						"redLose	(GameSplashMessage.js)"
+					],
+					[
+						"GameSplashM",
+						"GameSplashMessageSVG	(GameSplashMessage.js)"
+					]
+				]
+			},
+			"buffers":
+			[
+				{
+					"file": "/Users/pedro/Jam3/mustang/MustangCustomizerRenderer/src/ui/2d/GameSplashMessageSVG.js",
+					"settings":
+					{
+						"buffer_size": 579,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/Users/pedro/Jam3/mustang/MustangCustomizerRenderer/src/controllers/NavigationDecorator.js",
+					"settings":
+					{
+						"buffer_size": 31095,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/Users/pedro/Jam3/mustang/MustangCustomizerRenderer/test.js",
+					"settings":
+					{
+						"buffer_size": 9673,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/Users/pedro/Jam3/mustang/MustangCustomizerRenderer/src/ui/2d/GameSplashMessage.js",
+					"settings":
+					{
+						"buffer_size": 7489,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"contents": "Searching 1166 files for \"RaceTimer\"\n\n/Users/pedro/Jam3/mustang/MustangCustomizerRenderer/src/game/CarPhysicsSimulation.js:\n  299  CarPhysicsSimulation.prototype._shiftUp = function() {\n  300  	if(__debugLevel >= 1) {\n  301: 		// console.log('CarPhysicsSimulation:', 'shiftUp', this.raceTimer);\n  302  	}\n  303  	if(this.gear === this.gears.length || (this.shifting && this.shiftDirection === 1)) return;\n  ...\n  309  	signal.dispatch(grade);\n  310  	this._shift(newGear);\n  311: 	this.addNewTimeEvent(EVENTS.shiftUp, this.raceTimer);\n  312  }\n  313  \n  314  CarPhysicsSimulation.prototype._shiftDown = function() {\n  315  	if(__debugLevel >= 1) {\n  316: 		// console.log('CarPhysicsSimulation:', 'shiftDown', this.raceTimer);\n  317  	}\n  318  	if(this.gear === 0 || (this.shifting && this.shiftDirection === -1)) return;\n  319  	var newGear = this.gear - 1;\n  320  	this._shift(newGear);\n  321: 	this.addNewTimeEvent(EVENTS.shiftDown, this.raceTimer);\n  322  }\n  323  \n  324  CarPhysicsSimulation.prototype._brakesStart = function() {\n  325  	if(__debugLevel >= 1) {\n  326: 		// console.log('CarPhysicsSimulation:', 'brakesStart', this.raceTimer);\n  327  	}\n  328  	this.inputBrake.animateIn();\n  329: 	this.addNewTimeEvent(EVENTS.brakesStart, this.raceTimer);\n  330  }\n  331  \n  332  CarPhysicsSimulation.prototype._brakesEnd = function() {\n  333  	if(__debugLevel >= 1) {\n  334: 		// console.log('CarPhysicsSimulation:', 'brakesEnd', this.raceTimer);\n  335  	}\n  336  	this.inputBrake.animateOut();\n  337: 	this.addNewTimeEvent(EVENTS.brakesEnd, this.raceTimer);\n  338  }\n  339  \n  340  CarPhysicsSimulation.prototype._gasStart = function() {\n  341  	if(__debugLevel >= 1) {\n  342: 		// console.log('CarPhysicsSimulation:', 'gasStart', this.raceTimer);\n  343  	}\n  344  	if(this.newRaceData.events.length === 0) {\n  ...\n  364  		// 	}\n  365  		// });\n  366: 		this.checkinTime = this.raceTimer;\n  367  	}\n  368  	this.inputGas.animateIn();\n  369: 	this.addNewTimeEvent(EVENTS.gasStart, this.raceTimer);\n  370  }\n  371  \n  372  CarPhysicsSimulation.prototype._gasEnd = function() {\n  373  	if(__debugLevel >= 1) {\n  374: 		// console.log('CarPhysicsSimulation:', 'gasEnd', this.raceTimer);\n  375  	}\n  376  	this.inputGas.animateOut();\n  377: 	this.addNewTimeEvent(EVENTS.gasEnd, this.raceTimer);\n  378  }\n  379  \n  380  CarPhysicsSimulation.prototype._clutchStart = function() {\n  381  	if(__debugLevel >= 1) {\n  382: 		// console.log('CarPhysicsSimulation:', 'clutchStart', this.raceTimer);\n  383  	}\n  384  	this.inputClutch.animateIn();\n  385: 	this.addNewTimeEvent(EVENTS.clutchStart, this.raceTimer);\n  386  }\n  387  \n  388  CarPhysicsSimulation.prototype._clutchEnd = function() {\n  389  	if(__debugLevel >= 1) {\n  390: 		// console.log('CarPhysicsSimulation:', 'clutchEnd', this.raceTimer);\n  391  	}\n  392  	this.inputClutch.animateOut();\n  393: 	this.addNewTimeEvent(EVENTS.clutchEnd, this.raceTimer);\n  394  }\n  395  \n  ...\n  398  		throw new Error('types should be numbers that belong to EVENTS');\n  399  	}\n  400: 	if(inputType === 8 && this.raceTimer < 2990) {\n  401  		throw new Error('Early start');\n  402  	}\n  ...\n  406  CarPhysicsSimulation.prototype._shift = function(newGear) {\n  407  	if(__debugLevel >= 1) {\n  408: 		// console.log('CarPhysicsSimulation:', 'shift =', this.raceTimer);\n  409  	}\n  410  	var gearBox = this.inputGearBox;\n  ...\n  432  CarPhysicsSimulation.prototype._useNitro = function() {\n  433  	if(__debugLevel >= 1) {\n  434: 		// console.log('CarPhysicsSimulation:', 'useNitro', this.raceTimer);\n  435  	}\n  436  	var nitro = this.inputNitro;\n  ...\n  438  	this.usedNitro = true;\n  439  	nitro.show(nitro.hide.bind(nitro, noop));\n  440: 	this.addNewTimeEvent(EVENTS.useNitro, this.raceTimer);\n  441  }\n  442  \n  ...\n  455  	this.lastTirePosition = 0;\n  456  	this.distanceGoal = 0.5 * 1.61 * 1000;	//half mile in meters\n  457: 	this.raceTimer = 0;\n  458: 	this.raceTimer2 = 0;\n  459  	this.checkinTime = Infinity;\n  460  	this.active = true;\n  ...\n  477  		maxTime,\n  478  		{\n  479: 			raceTimer2: maxTime,\n  480  			onUpdate: this.update.bind(this)\n  481  		}\n  ...\n  500  \n  501  CarPhysicsSimulation.prototype.update = function() {\n  502: 	this.raceTimer = tweener.now - this.tare;\n  503  	while(this.userInputQueue.length > 0) {\n  504  		this.enact(this.userInputQueue.pop());\n  505  	}\n  506: 	while(this.raceEventsToCome.length > 0 && this.raceTimer >= this.raceEventsToCome[0].time) {\n  507  		this.enact(this.raceEventsToCome.shift().type);\n  508  	}\n  ...\n  545  	this.points.setMaxSpeed(-this.road.rpm/60);\n  546  \n  547: 	if(this.raceTimer >= this.checkinTime) {\n  548: 		this.checkinTime = this.raceTimer + 1000;\n  549  		// console.log('CHECKIN', this.tirePosition);\n  550  	}\n  ...\n  575  \n  576  CarPhysicsSimulation.prototype.logFinishTime = function() {\n  577: 	this.newRaceData.setFinishTime(this.raceTimer - this.timeOffset);\n  578  	this.newRaceData.setFinishDistance(this.tirePosition);\n  579  }\n\n/Users/pedro/Jam3/mustang/MustangCustomizerRenderer/src/game/gui/CarDashboardInstruments/index.js:\n   55  			ClassObject: require('./Pause'),\n   56  		},\n   57: 		raceTimer: {\n   58: 			ClassObject: require('./RaceTimer'),\n   59  		},\n   60  		performanceMessages: {\n   ..\n  165  	this.pausePosYIn = 0;\n  166  	this.pausePosYOut = 0;\n  167: 	this.raceTimerPosYIn = 0;\n  168: 	this.raceTimerPosYOut = 0;\n  169  	this.performanceMessagesPosYIn = 0;\n  170  	this.performanceMessagesPosYOut = 0;\n  ...\n  273  	});\n  274  \n  275: 	var raceTimerActiveValue = new GsapValue({\n  276  		durationIn: 0.5,\n  277  		durationOut: 0.5,\n  ...\n  279  		easeOut: eases.quintOut,\n  280  		onUpdate: function() {\n  281: 			var value = raceTimerActiveValue.value;\n  282: 			_this.raceTimer.visible = value > 0;\n  283: 			_this.raceTimer.position.z = -lerp(_this.raceTimerPosYOut, _this.raceTimerPosYIn, value);\n  284  		}\n  285  	});\n  ...\n  390  		microSpeedometer: microSpeedometerActiveValue,\n  391  		pause: pauseActiveValue,\n  392: 		raceTimer: raceTimerActiveValue,\n  393  		performanceMessages: performanceMessagesActiveValue,\n  394  		progressIndicator: progressIndicatorActiveValue,\n  ...\n  407  		brakePedalActiveValue,\n  408  		pauseActiveValue,\n  409: 		raceTimerActiveValue,\n  410  		performanceMessagesActiveValue,\n  411  		progressIndicatorActiveValue,\n  ...\n  426  		nothing: [],\n  427  		nothingOpponent: [],\n  428: 		starting: [av.dials, av.gas, av.pause, av.raceTimer, av.performanceMessages, av.progressIndicator],\n  429: 		shifting: [av.dials, av.nitro, av.shifters, av.pause, av.raceTimer, av.performanceMessages, av.progressIndicator],\n  430  		braking: [av.microSpeedometer, av.brake, av.pause, av.performanceMessages, av.progressIndicator],\n  431  		startingTutorial: [av.gas],\n  ...\n  629  	this.pausePosYIn = 100 * scale;\n  630  	this.pausePosYOut = -100 * scale;\n  631: 	this.raceTimerPosYIn = h * 0.33;\n  632: 	this.raceTimerPosYOut = -100 * scale;\n  633  	this.performanceMessagesPosYIn = h * 0.33;\n  634  	this.performanceMessagesPosYOut = -100 * scale;\n  ...\n  649  	this.pause.position.x = 100 * scale;\n  650  	var timerScale = scale * 2;\n  651: 	this.raceTimer.scale.set(timerScale, timerScale, -timerScale);\n  652: 	this.raceTimer.position.x = w * 0.5;\n  653  \n  654  	this.performanceMessages.scale.set(timerScale, timerScale, -timerScale);\n\n/Users/pedro/Jam3/mustang/MustangCustomizerRenderer/src/game/gui/CarDashboardInstruments/RaceTimer.js:\n    8  function noop() {}\n    9  \n   10: function RaceTimer(params) {\n   11  	params = params || {};\n   12  	defaults(params, {\n   ..\n   85  \n   86  }\n   87: RaceTimer.prototype = Object.create(MultiSvg.prototype);\n   88  \n   89: RaceTimer.prototype.announce = function(key) {\n   90  	if(!this.pieces[key]) {\n   91  		throw new Error('No such thing to announce.');\n   ..\n  102  }\n  103  \n  104: RaceTimer.prototype.reset = function() {\n  105  	this.pieces.forEach(function(piece) {\n  106  		piece.visible = false;\n  ...\n  109  }\n  110  \n  111: module.exports = RaceTimer;\n\n/Users/pedro/Jam3/mustang/MustangCustomizerRenderer/src/game/RaceCoordinator.js:\n  124  		}\n  125  		count--;\n  126: 		_this.gui.raceTimer.announce(count);\n  127  		countDownClockValue.setValue(1);\n  128  		if(count > 0) {\n  ...\n  138  	if(this.countingDown) {\n  139  		this.cancelCountDown = true;\n  140: 		this.gui.raceTimer.reset();\n  141  	}\n  142  };\n\n55 matches across 4 files\n",
+					"settings":
+					{
+						"buffer_size": 8380,
+						"line_ending": "Unix",
+						"name": "Find Results",
+						"scratch": true
+					}
+				},
+				{
+					"file": "/Users/pedro/Jam3/mustang/MustangCustomizerRenderer/src/game/gui/CarDashboardInstruments/index.js",
+					"settings":
+					{
+						"buffer_size": 21248,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/Users/pedro/Jam3/mustang/MustangCustomizerRenderer/src/game/gui/CarDashboardInstruments/GasButton.js",
+					"settings":
+					{
+						"buffer_size": 1033,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"contents": "var AnimatedObject3D = require('../meshes/AnimatedObject3D');\nvar AnimatedText = require('../meshes/AnimatedTextFadeSlideUp');\nvar Quad = require('../meshes/AnimatedQuad');\nvar	colors = require('../colors');\nvar defaults = require('lodash.defaults');\nvar RoundedRectangleLine = require('../meshes/RoundedRectangleLine');\nvar GsapValue = require('../controllers/GsapValue');\nvar	autoTimedButtonSelectDecorator = require('../../util/autoTimedButtonSelectDecorator');\nvar HitTester = require('../../util/InteractiveRegionButtonHitTesterClosest');\n\nvar AUTOTIME_ONSELECT = 2500;\nvar AUTOTIME_ONOVER = 1800;\n\nfunction noop () {}\nfunction GameSplashMessage(params) {\n	params = params || {}\n	defaults(params, {\n	});\n\n	AnimatedObject3D.call(this, params);\n\n	var quad = new Quad({\n		animationMode: 'fade',\n		color: 0x000000,\n		opacity: 0.6,\n		timeRemapDuration: 0.5\n	});\n	this.add(quad);\n\n	var idealSizeRatio = params.renderRegion.height / 375;\n\n	var textTitle = new AnimatedText({\n		text: 'GREAT\\nJOB',\n		size: 100 * idealSizeRatio,\n		color: colors.red,\n		weight: 'bold',\n		align: 'center',\n		lineHeight: 28,\n		letterSpacing: 12,\n		pivot: new THREE.Vector3(0.5, 0.5, 0),\n		timeRemapDelay: 0.2,\n		timeRemapDuration: 0.5\n	});\n	textTitle.position.z = 5;\n	this.add(textTitle);\n\n	var divider = new Quad({\n		animationMode: 'scaleX',\n		width: 30,\n		height: 1,\n		opacity: 1,\n		color: colors.white,\n		timeRemapDelay: 0.75,\n		timeRemapDuration: 0.25\n	});\n	divider.position.z = 5;\n	this.add(divider);\n\n	var textSubtitle = new AnimatedText({\n		text: 'YOU HAVE UNLOCKED THE MUSTANG GT',\n		size: 12 * idealSizeRatio,\n		color: colors.white,\n		weight: 'regular',\n		align: 'center',\n		pivot: new THREE.Vector3(0.5, 0.5, 0),\n		timeRemapDelay: 0.4,\n		timeRemapDuration: 0.5\n	});\n	textSubtitle.position.z = 5;\n	this.add(textSubtitle);\n\n	// Button\n	var rollValue = new GsapValue({\n	  onUpdate: this.animationUpdate,\n	  durationIn: 0.5,\n	  durationOut: 0.3,\n	  easeIn: GsapValue.eases.QUINT_OUT,\n	  easeOut: GsapValue.eases.QUART_IN_OUT,\n	});\n	this.rollValue = rollValue;\n	this.onOver = rollValue.animateIn.bind(rollValue);\n	this.onOut = rollValue.animateOut.bind(rollValue);\n	this.onPress = rollValue.animateOut.bind(rollValue);\n\n	var hitArea = new Quad({\n		width: params.controller.view.getSize().width,\n		height: params.controller.view.getSize().height,\n    color: Math.random() * 0xffffff,\n    opacity: 0,\n  });\n  this.add(hitArea);\n  this.hitArea = hitArea;\n  hitArea.position.z = 5;\n  hitArea.button = this;\n\n  var interactiveRegion = params.controller.renderRegionRight;\n  var camera = params.controller.gui2d.camera;\n  var hitAreas = [hitArea];\n  var hitTester = new HitTester(interactiveRegion, camera, hitAreas);\n\n  this.hitTester = hitTester;\n  hitTester.name = \"GameSplashMessage\";\n  this.onSelect = this.onSelect.bind(this);\n\n	this.quad = quad;\n	this.divider = divider;\n	this.textSubtitle = textSubtitle;\n	this.textTitle = textTitle;\n}\n\nGameSplashMessage.prototype = Object.create(AnimatedObject3D.prototype);\n\nGameSplashMessage.prototype.animationUpdate = function() {\n	this.visible = this.animationValue.value > 0;\n	AnimatedObject3D.prototype.animationUpdate.call(this);\n}\n\nGameSplashMessage.prototype.onResize = function(x, y, w, h) {\n	this.quad.position.set(x, y, 0);\n	this.quad.scale.set(w, h, 1);\n	this.textTitle.position.set(x + this.textTitle.width, y + this.textTitle.height/2, 5);\n	this.textSubtitle.position.set(x * -0.5 + 50, y + this.textTitle.height/2 + 10, 5);\n	this.divider.position.set(x * -0.5 + 50, y + this.textTitle.height/2 - 15 , 5);\n}\n\n\nGameSplashMessage.prototype.onSelect = function() {\n	console.warn('Override this function in controller or elsewhere');\n\n}\n\nGameSplashMessage.prototype.setTextWin = function( title, subtitle ) {\n	this.textTitle.setText(title);\n	this.textTitle.color = colors.blueWin;\n	this.setTextSubtitle(subtitle);\n}\n\nGameSplashMessage.prototype.setTextLose = function( title , subtitle ) {\n	this.textTitle.setText(title);\n	this.textTitle.color = colors.redLose;\n	this.setTextSubtitle(subtitle);\n}\nGameSplashMessage.prototype.setText = function( title , subtitle ) {\n	this.textTitle.setText(title);\n	this.textTitle.color = colors.white;\n	this.setTextSubtitle(subtitle);\n}\n\nGameSplashMessage.prototype.setTextSubtitle = function( value  ) {\n	if ( value ) {\n		this.textSubtitle.setText(value);\n	} else {\n		this.textSubtitle.setText('');\n	}\n}\n\nGameSplashMessage.prototype.setChallengeSent = function( subtitle ) {\n	this.setTextWin('CHAL-\\nLENGE\\nSENT', subtitle);\n	var controller = this.controller;\n	controller.splash.showImage(controller.paths.assets + 'game/backgrounds/challengeWin.png');\n	this.onSelect = function() {\n		controller.navigation.go('gameCarSummary', noop);\n	}\n	autoTimedButtonSelectDecorator(this, this.onSelect , AUTOTIME_ONSELECT, AUTOTIME_ONOVER);\n}\n\nGameSplashMessage.prototype.setYouWin = function( subtitle ) {\n	this.setTextWin('YOU\\nWIN', subtitle);\n	var controller = this.controller;\n	controller.splash.showImage(controller.paths.assets + 'game/backgrounds/challengeWin.png');\n	this.onSelect = function() {\n		controller.navigation.go('gameResultVSChallenge', noop);\n	}\n	autoTimedButtonSelectDecorator(this, this.onSelect , AUTOTIME_ONSELECT, AUTOTIME_ONOVER);\n}\n\nGameSplashMessage.prototype.setGoodJob = function( subtitle ) {\n	this.setTextWin('GOOD\\nJOB', subtitle);\n	var controller = this.controller;\n	controller.splash.showImage( controller.paths.assets + 'game/backgrounds/singleWin.png');\n	this.onSelect = function() {\n		controller.navigation.go('gameResultSinglePlayer', noop);\n	}\n	autoTimedButtonSelectDecorator(this, this.onSelect , AUTOTIME_ONSELECT, AUTOTIME_ONOVER);\n}\n\nGameSplashMessage.prototype.setYouLose = function( subtitle ) {\n	this.setTextLose('YOU\\nLOSE', subtitle);\n	var controller = this.controller;\n	controller.splash.showImage(controller.paths.assets + 'game/backgrounds/challengeLoose.png');\n	this.onSelect = function() {\n		controller.navigation.go('gameResultVSChallenge', noop);\n	}\n	autoTimedButtonSelectDecorator(this, this.onSelect , AUTOTIME_ONSELECT, AUTOTIME_ONOVER);\n}\n\nGameSplashMessage.prototype.setTie = function( subtitle ) {\n	this.setText('YOU\\nTIED', subtitle);\n	var controller = this.controller;\n	controller.splash.showImage(controller.paths.assets + 'game/backgrounds/challengeLoose.png');\n	this.onSelect = function() {\n		controller.navigation.go('gameResultVSChallenge', noop);\n	}\n	autoTimedButtonSelectDecorator(this, this.onSelect , AUTOTIME_ONSELECT, AUTOTIME_ONOVER);\n}\nGameSplashMessage.prototype.animationUpdate = function() {\n  AnimatedObject3D.prototype.animationUpdate.apply(this, arguments);\n  this.hitTester.setState(this.animationValue.value > 0.9);\n}\nmodule.exports = GameSplashMessage;\n",
+					"settings":
+					{
+						"buffer_size": 6693,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/Users/pedro/Jam3/mustang/MustangCustomizerRenderer/src/ui/2d/GameSplashMessageBox.js",
+					"settings":
+					{
+						"buffer_size": 3299,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"contents": "diff --git a/src/ui/2d/GameSplashMessage.js b/src/ui/2d/GameSplashMessage.js\nindex ee56252..b0dd365 100644\n--- a/src/ui/2d/GameSplashMessage.js\n+++ b/src/ui/2d/GameSplashMessage.js\n@@ -1,139 +1,93 @@\n-var defaults = require('lodash.defaults');\n-var AnimatedObject3D = require('../meshes/ResizableAnimatedObject3D');\n+var AnimatedObject3D = require('../meshes/AnimatedObject3D');\n var AnimatedText = require('../meshes/AnimatedTextFadeSlideUp');\n-var AnimatedQuad = require('../meshes/AnimatedQuadFade');\n+var Quad = require('../meshes/AnimatedQuad');\n var	colors = require('../colors');\n+var defaults = require('lodash.defaults');\n+var RoundedRectangleLine = require('../meshes/RoundedRectangleLine');\n var GsapValue = require('../controllers/GsapValue');\n-var	autoTimedButtonSelectDecorator = require('../../util/autoTimedButtonSelectDecorator');\n-var HitTester = require('../../util/InteractiveRegionButtonHitTesterClosest');\n-\n-function noop() {}\n-\n-var AUTOTIME_ONSELECT = 2500;\n-var AUTOTIME_ONOVER = 1800;\n \n+function noop () {}\n function GameSplashMessage(params) {\n-	params = params || {};\n+	params = params || {}\n 	defaults(params, {\n-		text: 'GREAT\\nJOB',\n-		textSubtitle: 'YOU HAVE UNLOCKED THE MUSTANG GT',\n-		textSize: 100,\n-		textColor: 0x2E80C9,\n-		textWeight: 'bold',\n-		textAlign: 'left',\n-		letterSpacing: 30,\n-		splashUrl: 'assets/images/gameUiBgCar.png'\n 	});\n \n-	this.bgColor = colors.black;\n-	this.bgOpacity = 0.3;\n-	this.splashUrl = params.splashUrl\n-	this.controller = params.controller;\n-	if(!this.controller) throw new Error('You must provide a reference to controller.');\n-\n 	AnimatedObject3D.call(this, params);\n \n+	var quad = new Quad({\n+		animationMode: 'fade',\n+		color: 0x000000,\n+		opacity: 0.6,\n+		timeRemapDuration: 0.5\n+	});\n+	this.add(quad);\n+\n+	var idealSizeRatio = params.renderRegion.height / 375;\n+\n 	var textTitle = new AnimatedText({\n-			text: params.text,\n-			size: params.textSize,\n-			color: params.textColor,\n-			weight: params.textWeight,\n-			align: params.textAlign,\n-			lineHeight: 18,\n-			letterSpacing: params.letterSpacing\n+		text: 'NICE\\nTRY',\n+		size: 55 * idealSizeRatio,\n+		color: colors.red,\n+		weight: 'bold',\n+		align: 'center',\n+		lineHeight: 28,\n+		letterSpacing: 12,\n+		pivot: new THREE.Vector3(0.5, 0.5, 0),\n+		timeRemapDelay: 0.2,\n+		timeRemapDuration: 0.5\n 	});\n-	textTitle.pivot = new THREE.Vector3(0.5, 0.5, 0);\n+	textTitle.position.z = 5;\n 	this.add(textTitle);\n-	this.textTitle = textTitle;\n \n-	var divider = new AnimatedQuad({\n+	var divider = new Quad({\n 		animationMode: 'scaleX',\n 		width: 30,\n-		height: 2,\n-		color: colors.white\n+		height: 1,\n+		opacity: 1,\n+		color: colors.white,\n+		timeRemapDelay: 0.75,\n+		timeRemapDuration: 0.25\n 	});\n+	divider.position.z = 5;\n 	this.add(divider);\n-	this.divider = divider;\n \n 	var textSubtitle = new AnimatedText({\n-			text: params.textSubtitle,\n-			size: 18,\n-			color: colors.white,\n-			weight: 'light',\n-			align: params.textAlign\n+		text: 'PRACTICE MAKES PERFECT DON\\'T GIVE UP!',\n+		size: 12 * idealSizeRatio,\n+		color: colors.white,\n+		weight: 'regular',\n+		align: 'center',\n+		pivot: new THREE.Vector3(0.5, 0.5, 0),\n+		timeRemapDelay: 0.4,\n+		timeRemapDuration: 0.5\n 	});\n-\n-	textSubtitle.pivot = new THREE.Vector3(0.5, 0.5, 0);\n-\n+	textSubtitle.position.z = 5;\n 	this.add(textSubtitle);\n-	this.textSubtitle = textSubtitle;\n \n-	// Button\n-	var rollValue = new GsapValue({\n-	  onUpdate: this.animationUpdate,\n-	  durationIn: 0.5,\n-	  durationOut: 0.3,\n-	  easeIn: GsapValue.eases.QUINT_OUT,\n-	  easeOut: GsapValue.eases.QUART_IN_OUT,\n-	});\n-	this.rollValue = rollValue;\n-	this.onOver = rollValue.animateIn.bind(rollValue);\n-	this.onOut = rollValue.animateOut.bind(rollValue);\n-	this.onPress = rollValue.animateOut.bind(rollValue);\n-\n-	var hitArea = new AnimatedQuad({\n-		width: params.controller.view.getSize().width,\n-		height: params.controller.view.getSize().height,\n-    color: Math.random() * 0xffffff,\n-    opacity: 0,\n-  });\n-  this.add(hitArea);\n-  this.hitArea = hitArea;\n-  hitArea.position.z = 5;\n-  hitArea.button = this;\n-\n-  var interactiveRegion = params.controller.renderRegionRight;\n-  var camera = params.controller.gui2d.camera;\n-  var hitAreas = [hitArea];\n-  var hitTester = new HitTester(interactiveRegion, camera, hitAreas);\n-\n-  this.hitTester = hitTester;\n-  hitTester.name = \"GameSplashMessage\";\n-  this.onSelect = this.onSelect.bind(this);\n-  // autoTimedButtonSelectDecorator(this, this.onSelect, AUTOTIME_ONSELECT, AUTOTIME_ONOVER);\n+	this.quad = quad;\n+	this.divider = divider;\n+	this.textSubtitle = textSubtitle;\n+	this.textTitle = textTitle;\n }\n \n GameSplashMessage.prototype = Object.create(AnimatedObject3D.prototype);\n \n-GameSplashMessage.prototype.onSelect = function() {\n-	console.warn('Override this function in controller or elsewhere');\n+GameSplashMessage.prototype.animationUpdate = function() {\n+	this.visible = this.animationValue.value > 0;\n+	AnimatedObject3D.prototype.animationUpdate.call(this);\n+}\n \n+GameSplashMessage.prototype.onResize = function(x, y, w, h) {\n+	this.quad.position.set(x, y, 0);\n+	this.quad.scale.set(w, h, 1);\n+	this.textTitle.position.set(x - w * 0.22, y + this.textTitle.height - 30, 5);\n+	this.textSubtitle.position.set(x - w * 0.22, y + this.textTitle.height + 10, 5);\n+	this.divider.position.set(x - w * 0.22, y + this.textTitle.height - 15 , 5);\n }\n-GameSplashMessage.prototype.onResize = function(x, y, width, height) {\n-	var paddingX = 50;\n-	var paddingY = 0;\n-	var alignX = -0.5;\n-	var alignY = 0.3;\n-\n-	this.textTitle.position.set(\n-		alignX * width + (this.textTitle.width + paddingX * 2)  * -alignX,\n-		alignY * height + (this.textTitle.height + paddingY * 2) * -alignY,\n-		0);\n-\n-	alignY = 0.23;\n-	this.divider.position.set(\n-		alignX * width + (this.divider.width + paddingX * 2) * -alignX,\n-		alignY * height + (this.divider.height + paddingY * 2) * -alignY,\n-		0);\n-\n-	alignY = 0.35;\n-	this.textSubtitle.position.set(\n-		alignX * width + (this.textSubtitle.width + paddingX * 2) * -alignX,\n-		alignY * height + (this.textSubtitle.height + paddingY * 2) * -alignY,\n-		0);\n-\n-	//Renderer.controller.splash.showImage(this.splashUrl);\n-	AnimatedObject3D.prototype.onResize.apply(this, arguments);\n+\n+\n+GameSplashMessage.prototype.onSelect = function() {\n+	console.warn('Override this function in controller or elsewhere');\n \n }\n \n@@ -213,7 +167,6 @@ GameSplashMessage.prototype.setTie = function( subtitle ) {\n }\n GameSplashMessage.prototype.animationUpdate = function() {\n   AnimatedObject3D.prototype.animationUpdate.apply(this, arguments);\n-\n   this.hitTester.setState(this.animationValue.value > 0.9);\n }\n module.exports = GameSplashMessage;\n",
+					"settings":
+					{
+						"buffer_size": 6646,
+						"line_ending": "Unix",
+						"name": "Git Diff",
+						"read_only": true,
+						"scratch": true
+					}
+				},
+				{
+					"file": "/Users/pedro/Jam3/mustang/MustangCustomizerRenderer/src/controllers/GuiTop2d2Decorator.js",
+					"settings":
+					{
+						"buffer_size": 465,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/Users/pedro/Jam3/mustang/MustangCustomizerRenderer/src/node_modules/utils/svg/MultiSvg.js",
+					"settings":
+					{
+						"buffer_size": 1956,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/Users/pedro/Jam3/mustang/MustangCustomizerRenderer/src/ui/meshes/Text.js",
+					"settings":
+					{
+						"buffer_size": 9441,
+						"line_ending": "Unix"
+					}
+				}
+			],
+			"build_system": "",
+			"build_system_choices":
+			[
+			],
+			"build_varint": "",
+			"command_palette":
+			{
+				"height": 118.0,
+				"last_filter": "install",
+				"selected_items":
+				[
+					[
+						"install",
+						"Package Control: Install Package"
+					],
+					[
+						"instal",
+						"Package Control: Install Package"
+					],
+					[
+						"jshi",
+						"JSHint"
+					],
+					[
+						"pack",
+						"Preferences: Browse Packages"
+					]
+				],
+				"width": 453.0
+			},
+			"console":
+			{
+				"height": 138.0,
+				"history":
+				[
+					"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+				]
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"expanded_folders":
+			[
+				"/Users/pedro/Jam3/mustang/MustangCustomizerRenderer",
+				"/Users/pedro/Jam3/mustang/MustangCustomizerRenderer/src",
+				"/Users/pedro/Jam3/mustang/MustangCustomizerRenderer/src/game",
+				"/Users/pedro/Jam3/mustang/MustangCustomizerRenderer/src/game/Actors",
+				"/Users/pedro/Jam3/mustang/MustangCustomizerRenderer/src/game/gui",
+				"/Users/pedro/Jam3/mustang/MustangCustomizerRenderer/src/game/gui/CarDashboardInstruments"
+			],
+			"file_history":
+			[
+				"/Users/pedro/Jam3/mustang/MustangCustomizerRenderer/src/controllers/NeedsController.js",
+				"/Users/pedro/Jam3/mustang/MustangCustomizerRenderer/src/ui/2d/BeginBrakeTest.js",
+				"/Users/pedro/Jam3/mustang/MustangCustomizerRenderer/src/ui/meshes/ResizableAnimatedObject3D.js",
+				"/Users/pedro/Jam3/mustang/MustangCustomizerRenderer/src/game/gui/CarDashboardInstruments/index.js",
+				"/Users/pedro/Jam3/mustang/MustangCustomizerRenderer/src/controllers/NavigationDecorator.js",
+				"/Users/pedro/Jam3/mustang/MustangCustomizerRenderer/src/util/meshes/DebugCarBody.js",
+				"/Users/pedro/Jam3/mustang/MustangCustomizerRenderer/test.js",
+				"/Users/pedro/Jam3/mustang/MustangCustomizerRenderer/src/node_modules/utils/svg/MultiSvg.js",
+				"/Users/pedro/Jam3/mustang/MustangCustomizerRenderer/src/game/gui/CarDashboardInstruments/BrakePedal.js",
+				"/Users/pedro/Jam3/mustang/MustangCustomizerRenderer/src/game/gui/CarDashboardInstruments/RaceTimer.js",
+				"/Users/pedro/Jam3/mustang/MustangCustomizerRenderer/node_modules/three-shader-fxaa/node_modules/three/examples/js/renderers/SVGRenderer.js",
+				"/Users/pedro/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+				"/Users/pedro/Jam3/mustang/MustangCustomizerRenderer/src/debug.js",
+				"/Users/pedro/Jam3/mustang/MustangCustomizerRenderer/src/index.js"
+			],
+			"find":
+			{
+				"height": 26.0
+			},
+			"find_in_files":
+			{
+				"height": 95.0,
+				"where_history":
+				[
+					"/Users/pedro/Jam3/mustang/MustangCustomizerRenderer/src"
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+					"RaceTimer",
+					"name",
+					"_this",
+					"loadSvgAsMesh",
+					"loadMeshAsSvg",
+					"width",
+					"-	",
+					"AnimatedQuad",
+					"	-",
+					"divider2",
+					"GameSplashMessageBox",
+					"brakeRed",
+					"loadSVGasmesh",
+					"33",
+					"italic",
+					"BeginBrakeTest",
+					"rightPageOverlay",
+					"var",
+					"colors",
+					"brakePedal",
+					"BrakePedal",
+					"message",
+					"colorEmpty",
+					"colorFull",
+					"color",
+					"colorFull",
+					"params",
+					"pieces",
+					"RaceTimer",
+					"raceTimer",
+					"RaceTimer",
+					"textBits"
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+				],
+				"reverse": false,
+				"show_context": true,
+				"use_buffer2": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"folders":
+			[
+				{
+					"path": "/Users/pedro/Jam3/mustang/MustangCustomizerRenderer"
+				}
+			],
+			"groups":
+			[
+				{
+					"selected": 0,
+					"sheets":
+					[
+						{
+							"buffer": 0,
+							"file": "/Users/pedro/Jam3/mustang/MustangCustomizerRenderer/src/ui/2d/GameSplashMessageSVG.js",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 579,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										579,
+										579
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 0,
+							"type": "text"
+						},
+						{
+							"buffer": 1,
+							"file": "/Users/pedro/Jam3/mustang/MustangCustomizerRenderer/src/controllers/NavigationDecorator.js",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 31095,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										0,
+										0
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+								},
+								"translation.x": 0.0,
+								"translation.y": 362.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 7,
+							"type": "text"
+						},
+						{
+							"buffer": 2,
+							"file": "/Users/pedro/Jam3/mustang/MustangCustomizerRenderer/test.js",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 9673,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										5807,
+										5807
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+								},
+								"translation.x": 0.0,
+								"translation.y": 3855.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 6,
+							"type": "text"
+						},
+						{
+							"buffer": 3,
+							"file": "/Users/pedro/Jam3/mustang/MustangCustomizerRenderer/src/ui/2d/GameSplashMessage.js",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 7489,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										577,
+										577
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 4,
+							"type": "text"
+						},
+						{
+							"buffer": 4,
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 8380,
+								"regions":
+								{
+									"match":
+									{
+										"flags": 112,
+										"regions":
+										[
+											[
+												283,
+												292
+											],
+											[
+												523,
+												532
+											],
+											[
+												715,
+												724
+											],
+											[
+												941,
+												950
+											],
+											[
+												1137,
+												1146
+											],
+											[
+												1250,
+												1259
+											],
+											[
+												1442,
+												1451
+											],
+											[
+												1554,
+												1563
+											],
+											[
+												1744,
+												1753
+											],
+											[
+												1887,
+												1896
+											],
+											[
+												1994,
+												2003
+											],
+											[
+												2180,
+												2189
+											],
+											[
+												2287,
+												2296
+											],
+											[
+												2483,
+												2492
+											],
+											[
+												2597,
+												2606
+											],
+											[
+												2789,
+												2798
+											],
+											[
+												2902,
+												2911
+											],
+											[
+												3057,
+												3066
+											],
+											[
+												3298,
+												3307
+											],
+											[
+												3528,
+												3537
+											],
+											[
+												3725,
+												3734
+											],
+											[
+												3877,
+												3886
+											],
+											[
+												3905,
+												3914
+											],
+											[
+												4031,
+												4040
+											],
+											[
+												4193,
+												4202
+											],
+											[
+												4391,
+												4400
+											],
+											[
+												4586,
+												4595
+											],
+											[
+												4652,
+												4661
+											],
+											[
+												4860,
+												4869
+											],
+											[
+												5126,
+												5135
+											],
+											[
+												5173,
+												5182
+											],
+											[
+												5310,
+												5319
+											],
+											[
+												5344,
+												5353
+											],
+											[
+												5493,
+												5502
+											],
+											[
+												5679,
+												5688
+											],
+											[
+												5723,
+												5732
+											],
+											[
+												5770,
+												5779
+											],
+											[
+												5805,
+												5814
+											],
+											[
+												5829,
+												5838
+											],
+											[
+												5982,
+												5991
+											],
+											[
+												5993,
+												6002
+											],
+											[
+												6209,
+												6218
+											],
+											[
+												6420,
+												6429
+											],
+											[
+												6544,
+												6553
+											],
+											[
+												6847,
+												6856
+											],
+											[
+												6888,
+												6897
+											],
+											[
+												7128,
+												7137
+											],
+											[
+												7199,
+												7208
+											],
+											[
+												7474,
+												7483
+											],
+											[
+												7582,
+												7591
+											],
+											[
+												7654,
+												7663
+											],
+											[
+												7819,
+												7828
+											],
+											[
+												7985,
+												7994
+											],
+											[
+												8126,
+												8135
+											],
+											[
+												8314,
+												8323
+											]
+										],
+										"scope": ""
+									}
+								},
+								"selection":
+								[
+									[
+										5055,
+										5055
+									]
+								],
+								"settings":
+								{
+									"detect_indentation": false,
+									"line_numbers": false,
+									"output_tag": 1,
+									"result_base_dir": "",
+									"result_file_regex": "^([^ 	].*):$",
+									"result_line_regex": "^ +([0-9]+):",
+									"scroll_past_end": true,
+									"syntax": "Packages/Default/Find Results.hidden-tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 2786.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 3,
+							"type": "text"
+						},
+						{
+							"buffer": 5,
+							"file": "/Users/pedro/Jam3/mustang/MustangCustomizerRenderer/src/game/gui/CarDashboardInstruments/index.js",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 21248,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										0,
+										0
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+								},
+								"translation.x": 0.0,
+								"translation.y": 14.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 2,
+							"type": "text"
+						},
+						{
+							"buffer": 6,
+							"file": "/Users/pedro/Jam3/mustang/MustangCustomizerRenderer/src/game/gui/CarDashboardInstruments/GasButton.js",
+							"semi_transient": true,
+							"settings":
+							{
+								"buffer_size": 1033,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										0,
+										0
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 1,
+							"type": "text"
+						},
+						{
+							"buffer": 7,
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 6693,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										6693,
+										6693
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+								},
+								"translation.x": 0.0,
+								"translation.y": 3009.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 9,
+							"type": "text"
+						}
+					]
+				},
+				{
+					"sheets":
+					[
+						{
+							"buffer": 8,
+							"file": "/Users/pedro/Jam3/mustang/MustangCustomizerRenderer/src/ui/2d/GameSplashMessageBox.js",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 3299,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										1726,
+										1679
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+									"translate_tabs_to_spaces": false
+								},
+								"translation.x": 0.0,
+								"translation.y": 1008.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 10,
+							"type": "text"
+						},
+						{
+							"buffer": 9,
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 6646,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										5587,
+										5550
+									]
+								],
+								"settings":
+								{
+									"git_root_dir": "/Users/pedro/Jam3/mustang/MustangCustomizerRenderer",
+									"syntax": "Packages/Diff/Diff.tmLanguage",
+									"word_wrap": false
+								},
+								"translation.x": 14.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 11,
+							"type": "text"
+						},
+						{
+							"buffer": 10,
+							"file": "/Users/pedro/Jam3/mustang/MustangCustomizerRenderer/src/controllers/GuiTop2d2Decorator.js",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 465,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										0,
+										0
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 8,
+							"type": "text"
+						},
+						{
+							"buffer": 11,
+							"file": "/Users/pedro/Jam3/mustang/MustangCustomizerRenderer/src/node_modules/utils/svg/MultiSvg.js",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 1956,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										786,
+										786
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+								},
+								"translation.x": 0.0,
+								"translation.y": 705.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 5,
+							"type": "text"
+						},
+						{
+							"buffer": 12,
+							"file": "/Users/pedro/Jam3/mustang/MustangCustomizerRenderer/src/ui/meshes/Text.js",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 9441,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										0,
+										0
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 12,
+							"type": "text"
+						}
+					]
+				}
+			],
+			"incremental_find":
+			{
+				"height": 26.0
+			},
+			"input":
+			{
+				"height": 0.0
+			},
+			"layout":
+			{
+				"cells":
+				[
+					[
+						0,
+						0,
+						1,
+						1
+					],
+					[
+						1,
+						0,
+						2,
+						1
+					]
+				],
+				"cols":
+				[
+					0.0,
+					0.5,
+					1.0
+				],
+				"rows":
+				[
+					0.0,
+					1.0
+				]
+			},
+			"menu_visible": true,
+			"output.find_results":
+			{
+				"height": 0.0
+			},
+			"pinned_build_system": "",
+			"position": "0 0 4 1440 873 0 0 1440 877 ",
+			"project": "",
+			"replace":
+			{
+				"height": 48.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+					[
+						"controllers",
+						"src/controllers/NeedsController.js"
+					],
+					[
+						"test",
+						"test.js"
+					],
+					[
+						"navig",
+						"src/controllers/NavigationDecorator.js"
+					],
+					[
+						"animatedob",
+						"src/ui/meshes/ResizableAnimatedObject3D.js"
+					],
+					[
+						"text",
+						"src/ui/meshes/Text.js"
+					],
+					[
+						"beginb",
+						"src/ui/2d/BeginBrakeTest.js"
+					],
+					[
+						"navigati",
+						"src/controllers/NavigationDecorator.js"
+					],
+					[
+						"gamesplash",
+						"src/ui/2d/GameSplashMessageBox.js"
+					],
+					[
+						"multisvg",
+						"src/node_modules/utils/svg/MultiSvg.js"
+					],
+					[
+						"svg",
+						"node_modules/three-shader-fxaa/node_modules/three/examples/js/renderers/SVGRenderer.js"
+					],
+					[
+						"navigation",
+						"src/controllers/NavigationDecorator.js"
+					],
+					[
+						"gamespla",
+						"src/ui/2d/GameSplashMessage.js"
+					],
+					[
+						"racetimer",
+						"src/game/gui/CarDashboardInstruments/RaceTimer.js"
+					],
+					[
+						"message",
+						"src/ui/2d/GameSplashMessage.js"
+					],
+					[
+						"naviga",
+						"src/controllers/NavigationDecorator.js"
+					],
+					[
+						"test.",
+						"test.js"
+					]
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_symbol":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"selected_group": 0,
+			"settings":
+			{
+			},
+			"show_minimap": true,
+			"show_open_files": false,
+			"show_tabs": true,
+			"side_bar_visible": true,
+			"side_bar_width": 242.0,
+			"status_bar_visible": true,
+			"template_settings":
+			{
+			},
+			"window_id": 2,
+			"workspace_name": ""
+		}
+	],
+	"workspaces":
+	{
+		"recent_workspaces":
+		[
+		]
+	}
+}

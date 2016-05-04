@@ -1,0 +1,16 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"All Autocomplete",
+		"Emmet",
+		"Git",
+		"GitGutter",
+		"JSHint Gutter",
+		"Package Control",
+		"Theme - Cobalt2"
+	]
+}

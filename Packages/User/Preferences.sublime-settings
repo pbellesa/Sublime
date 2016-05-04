@@ -1,0 +1,59 @@
+{
+	"auto_complete_delay": 500,
+	"auto_complete_selector": "source - comment, meta.tag - punctuation.definition.tag.begin",
+	"bold_folder_labels": true,
+	"caret_extra_bottom": 2,
+	"caret_extra_top": 2,
+	"caret_extra_width": 0.5,
+	"caret_style": "solid",
+	"color_scheme": "Packages/Color Scheme - Default/Monokai.tmTheme",
+	"detect_indentation": false,
+	"detect_slow_plugins": false,
+	"file_exclude_patterns":
+	[
+		".*",
+		"*.pyc",
+		"*.pyo",
+		"*.exe",
+		"*.dll",
+		"*.obj",
+		"*.o",
+		"*.a",
+		"*.lib",
+		"*.so",
+		"*.dylib",
+		"*.ncb",
+		"*.sdf",
+		"*.suo",
+		"*.pdb",
+		"*.idb",
+		".DS_Store",
+		"*.class",
+		"*.psd",
+		"*.db"
+	],
+	"highlight_line": true,
+	"highlight_modified_tabs": true,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"indent_guide_options":
+	[
+		"draw_normal",
+		"draw_active"
+	],
+	"line_padding_bottom": 2,
+	"line_padding_top": 1,
+	"match_brackets": true,
+	"match_brackets_angle": true,
+	"match_brackets_braces": true,
+	"match_brackets_content": true,
+	"match_brackets_square": true,
+	"tab_size": 2,
+	"theme": "Cobalt2.sublime-theme",
+	"translate_tabs_to_spaces": false,
+	"trim_automatic_white_space": true,
+	"trim_trailing_white_space_on_save": true,
+	"wide_caret": true
+}
